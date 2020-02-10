@@ -1,16 +1,8 @@
-# backASSistant
+# BackASSistant
 
-A new Flutter project.
+Sistema de asistencia en ejercicios de esplada por medio de biofeedback con aplicacion con frontend en Flutter
 
-## Getting Started
+## Hardware
 
-This project is a starting point for a Flutter application.
+Se usarán 3 giroscopios, dos flex-sensors y 6 emg para estimar la postura de la espalda y activacion  muscular del usuario
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
