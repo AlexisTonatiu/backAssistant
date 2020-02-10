@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766946068968",
+    "firebase_url": "https://backassistant-b7a1f.firebaseio.com",
+    "project_id": "backassistant-b7a1f",
+    "storage_bucket": "backassistant-b7a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766946068968:android:d0be72c6898cf68e857c5d",
+        "android_client_info": {
+          "package_name": "com.example.backASSistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766946068968-kmlua343ps4bnaflt6onri99gr4d2nmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.backASSistant",
+            "certificate_hash": "223dbcd64beaa24b758f4c850dc57552b4580662"
+          }
+        },
+        {
+          "client_id": "766946068968-tggdrucdo7880moehpufqjvum30a6rrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyI7Czl_xjWYBbTjDMOu-pB7BvGf0gDI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766946068968-tggdrucdo7880moehpufqjvum30a6rrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
