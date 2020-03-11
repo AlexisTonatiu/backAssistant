@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "766946068968-37aboe3i5aidaiv4808l5rff0qror4dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.backASSistant",
+            "certificate_hash": "f534732e0ee1e17fbc4adce7658c14da18c514e4"
+          }
+        },
+        {
           "client_id": "766946068968-kmlua343ps4bnaflt6onri99gr4d2nmk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

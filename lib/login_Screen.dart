@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+//import 'package:firebase_auth/firebase_auth.dart';
 import 'auth.dart';
 import 'animacion.dart';
 import 'inicio.dart';
@@ -18,9 +18,9 @@ class _LoginPageState extends State<LoginPage> {
         width: double.infinity,
         decoration: BoxDecoration(
             gradient: LinearGradient(begin: Alignment.topCenter, colors: [
-          Colors.orange[900],
-          Colors.orange[700],
-          Colors.orange[400]
+          Color.fromARGB(255, 218, 94, 90),
+          Color.fromARGB(255, 226, 129, 77),
+          Color.fromARGB(255, 253, 185, 3),
         ])),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
                   FadeAnimation(
                       1,
                       Text(
-                        "Login",
+                        "BackSpot",
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 40,
@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                   FadeAnimation(
                       1.3,
                       Text(
-                        "BackAssistant",
+                        "Log in",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       )),
                 ],
@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Color.fromARGB(255, 48, 64, 87),
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(50),
                         topRight: Radius.circular(50))),
@@ -68,23 +68,18 @@ class _LoginPageState extends State<LoginPage> {
                   padding: EdgeInsets.all(30),
                   child: Column(
                     children: <Widget>[
-                      SizedBox(height: 70,
+                      SizedBox(height: 150,
                       width: 1000,),
 
-                      Image(image: AssetImage('assets/a.gif'), width: 250,),
+                      //Image(image: AssetImage('assets/a.gif'), width: 250,),
                       SizedBox(height: 100,),
                       FadeAnimation(
                           1.4,
                           Container(
                             decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Color.fromARGB(255, 226, 129, 77),
                                 borderRadius: BorderRadius.circular(40),
-                                boxShadow: [
-                                  BoxShadow(
-                                      color: Color.fromRGBO(225, 95, 27, .3),
-                                      blurRadius: 20,
-                                      offset: Offset(0, 10))
-                                ]),
+                                ),
                             child: Column(
                               children: <Widget>[_signInButton()],
                             ),
@@ -116,7 +111,7 @@ class _LoginPageState extends State<LoginPage> {
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
-      borderSide: BorderSide(color: Colors.grey),
+      borderSide: BorderSide(color: Colors.transparent),
       child: Padding(
         padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
         child: Row(
@@ -127,10 +122,10 @@ class _LoginPageState extends State<LoginPage> {
             Padding(
               padding: const EdgeInsets.only(left: 10),
               child: Text(
-                'Inicia sesion con Google',
+                'Iniciar sesion con Google',
                 style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.grey,
+                  fontSize: 19,
+                  color: Colors.white,
                 ),
               ),
             )

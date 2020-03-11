@@ -12,7 +12,7 @@ String imageUrl;
 
 // Agregar condicion para cuando el usuario no inicia sesion, puede ser con un try-except/catch
 // aun esta el bug de cuando eso no sucede 
-Future<String> signInWithGoogle() async {
+Future<FirebaseUser> signInWithGoogle() async {
   final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
   final GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount.authentication;
 
@@ -46,7 +46,7 @@ Future<String> signInWithGoogle() async {
 
   updateUserData(user);
 
-  return 'signInWithGoogle succeeded: $user';
+  return user;
 }
 
 void updateUserData(FirebaseUser user) async {
@@ -66,3 +66,4 @@ void signOutGoogle() async {
 
   print("El usuario salio");
 }
+
